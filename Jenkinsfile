@@ -4,7 +4,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = "3isha/task-jenkins"
-        DOCKER_CREDENTIALS = "dockerhub-credentials"
+        DOCKER_CREDENTIALS = "docker"
     }
 
     stages {
